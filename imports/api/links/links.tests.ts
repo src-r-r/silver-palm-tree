@@ -4,7 +4,7 @@
 
 import { Meteor } from 'meteor/meteor';
 import { assert } from 'chai';
-import { Links } from './links.js';
+import { Links } from './links.ts';
 
 if (Meteor.isServer) {
   describe('links collection', function () {
