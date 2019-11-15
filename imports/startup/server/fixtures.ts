@@ -1,7 +1,8 @@
 // Fill the DB with example data on startup
+/// <reference path="/imports/api/links/links.d.ts">
 
 import { Meteor } from 'meteor/meteor';
-import { Links } from '../../api/links/links.js';
+import { Links } from '../../api/links/links';
 
 Meteor.startup(() => {
   // if the Links collection is empty

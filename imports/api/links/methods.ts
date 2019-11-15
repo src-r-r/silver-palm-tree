@@ -2,7 +2,7 @@
 
 import { Meteor } from 'meteor/meteor';
 import { check } from 'meteor/check';
-import { Links } from './links.ts';
+import { Links } from './links';
 
 Meteor.methods({
   'links.insert'(title: string, url: string) {
